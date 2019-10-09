@@ -1,0 +1,8 @@
+INSERT INTO users (ho_ten, so_dien_thoai, email, ngay_sinh)
+VALUES ('Trang', '09082773', 'Trang22@gmail.com','1997-02-05')
+
+SELECT ho_ten FROM users WHERE ho_ten LIKE '%a%'
+
+UPDATE users SET email = 'test@gmail.com'  WHERE ho_ten LIKE '%n%' OR so_dien_thoai LIKE '%5%'
+
+SELECT * FROM users WHERE email LIKE '%@gmail.com' AND YEAR(ngay_sinh) = 1997 AND so_dien_thoai LIKE '%8%'
