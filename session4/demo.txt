@@ -1,5 +1,9 @@
 INSERT INTO users (ho_ten, so_dien_thoai, email, ngay_sinh)
-VALUES ('Trang', '09082773', 'Trang22@gmail.com','1997-02-05')
+VALUES ('Trang', '09082273', 'Trang22@gmail.com','1999-02-05')
+VALUES ('Minh', '09052773', 'Minh22@gmail.com','1993-02-05')
+VALUES ('Vi', '09082373', 'Vi22@gmail.com','1995-02-05')
+VALUES ('Linh', '09082673', 'Linh22@gmail.com','1997-02-05')
+VALUES ('Hoang', '09082873', 'Hoang322@gmail.com','1998-02-05')
 
 SELECT ho_ten FROM users WHERE ho_ten LIKE '%a%'
 
